@@ -29,6 +29,9 @@ padding: 10px;
     display: grid;
     grid-template-columns: 50% 50%;
 }
+.answers-container .answer-box:last-of-type, .questions-container .question-box:last-of-type{
+direction: rtl;
+}
 .questions-container{
         color: black;
         font-size: 1.1rem;
